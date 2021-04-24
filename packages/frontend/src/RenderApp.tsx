@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { TrainingApp } from './TrainingApp';
 
-ReactDOM.render(<TrainingApp />, document.getElementById('root_training_app'));
+render(<TrainingApp />, document.getElementById('root_training_app'));
