@@ -1,3 +1,5 @@
+/* eslint-disable quote-props */
+/* eslint-disable max-len */
 /*
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/en/configuration.html
@@ -23,7 +25,7 @@ export default {
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
@@ -31,7 +33,7 @@ export default {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
+  coverageProvider: 'v8',
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -129,7 +131,7 @@ export default {
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   setupFilesAfterEnv: [
-    '<rootDir>/__test__/setupJest.ts'
+    '<rootDir>/__test__/setupJest.ts',
   ],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
@@ -139,7 +141,7 @@ export default {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "jest-environment-jsdom",
+  testEnvironment: 'jest-environment-jsdom',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
@@ -174,10 +176,10 @@ export default {
   // timers: "real",
 
   // A map from regular expressions to paths to transformers
-  "transform": {
-    ".*": "babel-jest",
-    "^.+\\.js?$\\.tx?$\\.tsx?$": "babel-jest"
-  } 
+  'transform': {
+    '.*': 'babel-jest',
+    '^.+\\.js?$\\.tx?$\\.tsx?$': 'babel-jest',
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [

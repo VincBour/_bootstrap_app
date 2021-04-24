@@ -21,22 +21,22 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader',
-        }
-      }
+        },
+      },
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js','.jsx','.json'],
+    extensions: ['.tsx', '.ts', '.js', '.jsx', '.json'],
   },
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
-      template: './public/index.html'
+      template: './public/index.html',
     }),
   ],
 };
