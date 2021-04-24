@@ -1,5 +1,4 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
 
 export const TrainingApp = () => {
     return (
@@ -7,5 +6,5 @@ export const TrainingApp = () => {
     )
 };
 
-ReactDOM.render(<TrainingApp />, document.getElementById('root_training_app'));
+
 
