@@ -30,5 +30,6 @@ module.exports = {
     'no-undef': ['off'],
     'react/jsx-props-no-spreading': ['off'],
     'react/prop-types': ['off'],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/*.spec.tsx', '**/*.spec.ts', '**/webpack.config.js'] }],
   },
 };
