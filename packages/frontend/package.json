@@ -9,7 +9,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "start": "webpack serve --open --mode development",
-    "lint": "eslint . --ext .ts --ext .tsx"
+    "lint": "eslint . --ext .ts --ext .tsx",
+    "fix": "eslint . --ext .ts --ext .tsx --fix"
   },
   "repository": {
     "type": "git",
