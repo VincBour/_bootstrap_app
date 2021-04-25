@@ -1,1 +1,1 @@
-import('./RenderApp');
+import('./RenderTrainingApp');
